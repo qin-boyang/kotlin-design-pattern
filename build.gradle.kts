@@ -34,6 +34,10 @@ kotlin {
     }
 }
 
+springBoot {
+    mainClass.set("com.mycompany.myproject.demo.DemoApplicationKt")
+}
+
 tasks.withType<Test> {
     useJUnitPlatform()
 }
